@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TriangleView">
+        <attr name="t_color" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="CoverFlowPager">
+        <attr name="visibleIndex" format="integer"/>
+        <attr name="listSpacing" format="dimension" />
+        <attr name="selectedSpacing" format="dimension" />
+        <attr name="alphaFactor" format="float"/>
+        <attr name="scaleFactor" format="float"/>
+    </declare-styleable>
+</resources>

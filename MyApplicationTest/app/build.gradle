@@ -1,0 +1,81 @@
+apply plugin: 'com.android.application'
+//apply plugin: 'auto-patch-plugin'  // 生成补丁文件时开启  美团热补丁用的
+//apply plugin: 'robust'  // 生成apk 时开启  美团热补丁用的
+//apply plugin: 'com.tencent.tinker.patch'
+apply plugin: 'android-apt'
+apply plugin: 'com.jakewharton.butterknife'
+
+
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+    signingConfigs {
+        // your debug keystore
+        debug {
+            storeFile file("key/test.store")
+            storePassword 'zh294134'
+            keyAlias 'app'
+            keyPassword 'zh294134'
+        }
+        release {
+            storeFile file("key/test.store")
+            storePassword 'zh294134'
+            keyAlias 'app'
+            keyPassword 'zh294134'
+        }
+    }
+    defaultConfig {
+        applicationId "com.example.hongtao.myapplicationtest"
+        minSdkVersion 14
+        targetSdkVersion 19
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            //是否zip对齐
+            zipAlignEnabled true
+            //是否打开debuggable开关
+            debuggable false
+            //是否打开jniDebuggable开关
+            jniDebuggable false
+            //移除未使用的资源
+            shrinkResources false
+            //混淆开关
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            //签名配置
+            signingConfig signingConfigs.release
+
+        }
+
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+
+
+    compile project(path: ':base_config_lib')
+    //our tinker SDK
+
+
+    compile 'com.android.support:appcompat-v7:23.3.0'
+    compile 'com.android.support:design:23.3.0'
+    compile 'org.quanqi:mpandroidchart:1.7.5'
+    compile 'org.greenrobot:eventbus:3.0.0'
+    compile 'com.jakewharton:butterknife:8.4.0'
+    compile 'com.google.android.gms:play-services-appindexing:8.4.0'
+    compile 'com.readystatesoftware.systembartint:systembartint:1.0.3'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.tencent.tinker:tinker-android-lib:1.7.7'
+    compile 'com.android.support:multidex:1.0.1'
+    apt 'com.jakewharton:butterknife-compiler:8.4.0'
+    provided 'com.tencent.tinker:tinker-android-anno:1.7.7'
+}
+
+
+
+

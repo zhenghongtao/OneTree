@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:background="@color/transparent"
+   >
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:id="@+id/main_layout_bg"
+       android:alpha="0"
+       android:background="@color/b1_black"
+       >
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="20dp"
+          android:layout_marginLeft="20dp"
+          android:layout_marginRight="20dp"
+          android:id="@+id/msg_title_layout"
+          android:layout_height="60dp">
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerHorizontal="true"
+             android:text="营销消息中心的入口 >"
+             android:textSize="14sp"
+             android:textColor="@color/a3_gray"
+             android:layout_marginTop="5dp"
+             android:id="@+id/msg_title"
+             />
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="1dp"
+             android:layout_below="@+id/msg_title"
+             android:layout_marginTop="5dp"
+             android:layout_marginBottom="5dp"
+             android:background="@color/a2_white"/>
+      </RelativeLayout>
+
+   </RelativeLayout>
+
+
+   <android.support.v4.view.ViewPager
+       android:layout_width="match_parent"
+       android:id="@+id/viewpage"
+       android:clipChildren="false"
+       android:layout_alignParentBottom="true"
+       android:layout_marginRight="40dp"
+       android:layout_marginLeft="40dp"
+       android:layout_height="120dp"
+       >
+
+   </android.support.v4.view.ViewPager>
+   <RelativeLayout
+       android:layout_width="50dp"
+       android:layout_height="50dp"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="10dp"
+       android:background="@drawable/add_cross"
+       android:id="@+id/top_layout"
+       />
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentRight="true"
+       android:layout_centerVertical="true"
+       android:layout_marginRight="10dp"
+       android:id="@+id/right_layout"
+       android:orientation="vertical"
+       >
+      <ImageView
+          android:layout_width="50dp"
+          android:layout_height="50dp"
+          android:src="@drawable/add_cross"
+          />
+      <ImageView
+          android:layout_width="50dp"
+          android:layout_height="50dp"
+          android:layout_marginTop="5dp"
+          android:src="@drawable/add_cross"
+          />
+   </LinearLayout>
+</RelativeLayout>

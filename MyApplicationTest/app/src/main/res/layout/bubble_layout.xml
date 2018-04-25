@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_all_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <LinearLayout
+        android:id="@+id/ll_content"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:orientation="horizontal"
+        >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginLeft="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_hand_info_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/a2_white"
+                android:textSize="@dimen/D3"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv_hand_info_time_tip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_hand_info_time"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="-3dp"
+                android:gravity="center"
+                android:text="分钟"
+                android:textColor="@color/a2_white"
+                android:textSize="@dimen/textsize_10"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/pd_loading_left"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerInParent="true"
+                />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="22dp"
+            android:background="#ffffff"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:alpha="0.4"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_loading_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:singleLine="true"
+                android:text="正在加载..."
+                android:textColor="@color/a2_white"
+                android:textSize="@dimen/D1"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/l_hand_info_order_car"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_onclick_yongche"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:text="点击用车"
+                    android:textColor="@color/a2_white"
+                    android:textSize="@dimen/D1" />
+
+                <ImageView
+                    android:id="@+id/iv_arrow_right"
+                    android:layout_width="9dp"
+                    android:layout_height="14dp"
+                    android:layout_marginLeft="7dp"
+                    android:scaleType="centerInside" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <com.example.hongtao.myapplicationtest.view.TriangleView
+        android:layout_width="19dp"
+        android:layout_height="11dp"
+        />
+</LinearLayout>

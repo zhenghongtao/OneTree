@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="transparent_all">#00000000</color>
+    <color name="transparent_half">#66000000</color>
+    <color name="transparent_half_80">#000000</color>
+    <color name="transparent_75">#00FFFFFF</color>
+    <color name="transparent_80">#b4000000</color>
+    <color name="transparent_gray">#99303030</color>
+    <color name="transparent_background">#9000</color>
+    <color name="loading_dialog_transparent_background">#00000000</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="red">#ee4136</color>
+    <color name="color_888888">#888888</color>
+    <color name="color_323232">#323232</color>
+    <color name="color_white_30">#44FFFFFF</color>
+
+    <color name="blue">#0000FF</color>
+    <color name="light_blue">#990000FF</color>
+    <color name="gray">#ebebeb</color>
+    <color name="gray1">#e1e1e1</color>
+    <color name="gray_list">#efefef</color>
+    <color name="green">#98d07d</color>
+    <color name="gray_dark">#ededed</color>
+    <color name="gray_light">#f8f8f8</color>
+    <color name="gray_level">#7c7c7c</color>
+    <color name="gray_level2">#d7d7d7</color>
+    <color name="light_level">#4c5070</color>
+    <color name="gray_myactivity_bg">#fafafa</color>
+    <color name="invoic_gray">#e1e1e1</color>
+    <color name="divider_gray">@color/cor_d7d7d7</color>
+    <color name="divider_line">@color/cor_d7d7d7</color>
+    <color name="transparent">#00000000</color>
+    <color name="yi_bg">#f0f0f0</color>
+    <color name="text_333333">#333333</color>
+    <color name="text_666666">#666666</color>
+    <color name="text_888888">#888888</color>
+    <color name="blue_press">#4693d0</color>
+    <color name="text_gray">#999999</color>
+    <color name="text_999999">#999999</color>
+    <color name="text_bbbbbb">#bbbbbb</color>
+    <color name="color_ee4136">#EE4136</color>
+    <color name="cor_333333">#333333</color>
+    <color name="cor_322222">#322222</color>
+    <color name="cor_404040">#404040</color>
+    <color name="cor_434343">#434343</color>
+    <color name="cor_999999">#999999</color>
+    <color name="cor_d7d7d7">#d7d7d7</color>
+    <color name="chat_hint">#ffcccccc</color>
+    <!-- 6.0 -->
+    <color name="cor_f0aaaa">#f0aaaa</color>
+    <color name="cor_de4646">#de4646</color>
+    <color name="cor_ec4949">#ec4949</color>
+    <color name="cor_94cd56">#94cd56</color>
+    <color name="cor_d73c3c">#d73c3c</color>
+    <color name="cor_ffffff">#ffffff</color>
+    <color name="cor_f0f0f0">#f0f0f0</color>
+    <color name="cor_fafafa">#fafafa</color>
+    <color name="cor_c8c8c8">#c8c8c8</color>
+    <color name="cor_dcdcdc">#dcdcdc</color>
+    <color name="cor_888888">#888888</color>
+    <color name="cor_222222">#222222</color>
+    <color name="cor_1e82e6">#1e82e6</color>
+    <color name="cor_58a0f0">#58a0f0</color>
+    <color name="cor_98d07d">#98d07d</color>
+    <color name="cor_fff8ec">#fff8ec</color>
+    <color name="cor_e6e6e6">#e6e6e6</color>
+    <color name="cor_e5e5e5">#e5e5e5</color>
+    <color name="cor_dedede">#dedede</color>
+    <color name="cor_1e83e6">#1e83e6</color>
+    <color name="cor_49a1ec">#49a1ec</color>
+    <color name="cor_82b46e">#82b46e</color>
+    <color name="cor_2784e3">#2784e3</color>
+    <color name="cor_e1e1e1">#e1e1e1</color>
+    <!-- 6.2.5 -->
+    <color name="cor_dddddd">#dddddd</color>
+    <color name="cor_f3f3f3">#f3f3f3</color>
+    <color name="cor_5a5a5a">#5a5a5a</color>
+    <color name="cor_cbcbcb">#cbcbcb</color>
+    <color name="cor_585885">#585885</color>
+    <color name="cor_f5f5f5">#f5f5f5</color>
+    <color name="cor_b4b4b4">#b4b4b4</color>
+
+    <!-- 6.3 -->
+    <color name="cor_0c4da2">#0C4DA2</color>
+    <color name="cor_90a3ca">#90a3ca</color>
+    <color name="cor_585858">#585858</color>
+    <color name="cor_cccccc">#cccccc</color>
+    <color name="cor_70000000">#70000000</color>
+    <color name="cor_90000000">#90000000</color>
+    <color name="cor_B4000000">#B4000000</color>
+    <!-- 6.3.0.new -->
+    <color name="cor_fa8c1e">#fa8c1e</color>
+
+
+    <!-- cc 选择上下车地点   搜索 -->
+    <color name="cor_search_address_tv_888888">#888888</color>
+
+    <!-- BLE color -->
+    <color name="red_yidao">#ec4949</color>
+    <color name="red_deep">#cf4141</color>
+    <color name="gray_text">#222222</color>
+    <color name="gray_yidao">#f0f0f0</color>
+    <color name="grayer_yidao">#e0dfdf</color>
+    <color name="gray_deep">#888888</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="ble_blue">#023cfa</color>
+    <!-- bus calendar -->
+
+    <color name="canlendar_text_color">#323232</color>
+    <color name="calendar_active_month_bg">#ff0000</color>
+    <color name="calendar_bg">#ffffffff</color>
+    <color name="calendar_divider">#EBEBEB</color>
+    <color name="calendar_inactive_month_bg">#ffd7d9db</color>
+    <color name="calendar_selected_day_bg">#ff379bff</color>
+    <color name="calendar_highlighted_day_bg">#ccffcc</color>
+    <color name="calendar_selected_range_bg">#ff96caff</color>
+    <color name="calendar_text_inactive">#40778088</color>
+    <color name="calendar_text_active">#ff778088</color>
+    <color name="calendar_text_selected">#ffffffff</color>
+    <color name="calendar_text_unselectable">#7f778088</color>
+    <color name="orange">#FF6100</color>
+    <color name="bus_tag_default">#91c278</color>
+    <color name="cor_fda658">#fda658</color>
+    <color name="cor_ffdddd">#ffdddd</color>
+    <color name="cor_6ea550">#6ea550</color>
+
+    <color name="driver_offline_color">#4C585858</color>
+    <color name="cor_84be6a">#84be6a</color>
+
+    <drawable name="btn_one_key_order_submit_seleted">#ec4949</drawable>
+    <drawable name="btn_one_key_order_submit_unseleted">#c8c8c8</drawable>
+
+
+    <color name="a1_red">#ff5252</color>
+    <color name="a2_white">#ffffff</color>
+    <color name="a3_gray">#fafafa</color>
+    <color name="a4_green">#28d29b</color>
+    <color name="a5_blue">#5578A8</color>
+    <color name="a6_yellow">#5578a8</color>
+    <color name="b1_black">#323232</color>
+    <color name="b2_gray">#646464</color>
+    <color name="b3_gray">#888888</color>
+    <color name="b4_gray">#c8c8c8</color>
+    <color name="b5_blue">#1e82e6</color>
+    <color name="c1_gray">#e1e1e1</color>
+
+    <!--7.0 常用颜色-->
+    <color name="cor_A1">#ff5252</color>
+    <color name="cor_A2">#ffffff</color>
+    <color name="cor_A3">#fafafa</color>
+    <color name="cor_A4">#28d29b</color>
+    <color name="cor_A5">#5578a8</color>
+    <color name="cor_A6">#fa8c1e</color>
+    <color name="cor_B1">#323232</color>
+    <color name="cor_B2">#646464</color>
+    <color name="cor_B3">#888888</color>
+    <color name="cor_B4">#c8c8c8</color>
+    <color name="cor_B5">#1e82e6</color>
+    <color name="cor_C1">#e1e1e1</color>
+    <color name="cor_G1">#e54a4a</color>
+    <color name="cor_G2">#e5e5e5</color>
+    <!-- end-->
+
+    <color name="cor_418fee">#418fee</color>
+
+
+    <!--7.0.7 my改版后颜色 钱包 颜色-->
+    <color name="cor_4194eb">#4194eb</color>
+    <color name="cor_4e9cef">#4e9cef</color>
+    <color name="cor_525252">#525252</color>
+    <color name="cor_f4f3f3">#f4f3f3</color>
+    <color name="cor_ff5252">#ff5252</color>
+
+    <!--7.0.8 加价弹框 颜色-->
+    <color name="cor_686868">#686868</color>
+</resources>
