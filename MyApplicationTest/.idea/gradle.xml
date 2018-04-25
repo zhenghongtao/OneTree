@@ -11,8 +11,6 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/base_config_lib" />
             <option value="$PROJECT_DIR$/map_library" />
-            <option value="$PROJECT_DIR$/test_modeule" />
-            <option value="$PROJECT_DIR$/test_module" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

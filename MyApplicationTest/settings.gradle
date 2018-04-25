@@ -1,1 +1,1 @@
-include ':app', ':base_config_lib', ':map_library', ':test_module', ':test_modeule'
+include ':app', ':base_config_lib', ':map_library'
